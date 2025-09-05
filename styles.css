@@ -6,9 +6,6 @@
   gap: 32px;
 }
 
-.hero-text {
-}
-
 /* Hero Section headline and subline color */
 .hero-text h1,
 .hero-text p {
@@ -21,8 +18,8 @@
 
 .hero-img {
   flex-shrink: 0;
-  max-width: 220px;
-  max-height: 140px;
+  max-width: 440px;
+  max-height: 320px;
   width: 100%;
   height: auto;
   margin-right: 0;
@@ -104,31 +101,40 @@ section {
   text-shadow: 0 1px 4px rgba(0,0,0,0.12);
 }
 
-/* Story Section Styles */
-.story {
-  background-color: #8BD1CB; /* Secondary Light Blue */
-  color: #222;
+/* Hero Section Styles - Cleaned and Enlarged */
+.hero {
+  position: relative;
+  background: #003366;
+  color: #FFC907;
   text-align: center;
-  padding: 30px 20px;
+  padding: 80px 20px 60px 20px;
+  min-height: 60vh; /* Make hero section fill more than half the viewport height */
+  border-radius: 0 0 16px 16px;
 }
 
-/* Add accent color to section headings */
-h2 {
-  color: #2E9DF7; /* Primary blue */
-  margin-top: 0;
+.hero h1 {
+  font-size: 3em;
   font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
-/* Call-to-Action Section Styles */
-.call-to-action {
-  background-color: #FFC907; /* Primary Yellow */
-  color: #222;
-  text-align: center;
-  padding: 30px 20px;
+.hero p {
+  font-size: 1.4em;
+  margin-top: 0;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.12);
 }
 
-/* Style the impact story image */
-.impact-image {
+/* Hero Image Styles - Cleaned and Enlarged */
+.hero-img {
+  flex-shrink: 0;
+  max-width: 520px;
+  max-height: 380px;
+  width: 100%;
+  height: auto;
+  margin-right: 0;
+}
   width: 100%;
   max-width: 320px;
   border-radius: 10px;
