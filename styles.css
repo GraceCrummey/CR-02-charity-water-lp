@@ -76,6 +76,7 @@ section {
 
 /* Hero Section Styles */
 .hero {
+  margin-bottom: 0;
   position: relative; /* Needed for overlay */
   /* Set a background image that covers the whole section */
   background: #003366;
@@ -197,7 +198,6 @@ section {
 
   /* Make story and call-to-action sections have less padding */
   .story,
-  .call-to-action,
   .donation-section {
     padding: 14px 8px;
   }
@@ -230,4 +230,11 @@ section {
   .impact-image {
     width: 300px;
   }
+}
+/* Call-to-Action Section Styles - Cleaned */
+.call-to-action {
+  background-color: #003366; /* Dark Blue */
+  color: #FFC907; /* Yellow text for contrast */
+  text-align: center;
+  padding: 30px 20px;
 }
