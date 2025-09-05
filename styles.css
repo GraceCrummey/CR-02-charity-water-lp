@@ -7,10 +7,9 @@
 }
 
 .hero-text {
-
+}
 
 /* Hero Section headline and subline color */
-.hero-text h1,
 .hero-text h1,
 .hero-text p {
   color: #FFC907;
@@ -81,16 +80,6 @@ section {
   text-align: center;          /* Center the text */
   padding: 60px 20px 40px 20px; /* Adjust padding for new layout */
   min-height: 40vh;            /* Slightly less height since image is smaller */
-/* Hero Section Image Styles */
-.hero-img {
-  display: block;
-  margin: 0 auto 24px auto;
-  max-width: 640px;
-  max-height: 420px;
-  width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(46, 157, 247, 0.10);
-}
   border-radius: 0 0 16px 16px; /* Only round bottom corners */
 }
 
