@@ -26,9 +26,10 @@
 }
 /* Header Section Styles */
 .site-header {
-  background-color: #1A1A1A; /* dark background */
+  background-color: #fff; /* white background */
   padding: 16px 0;
-  text-align: center;
+  text-align: left;
+  padding-left: 32px;
 }
 /* charity: water Brand Colors & Fonts
 
