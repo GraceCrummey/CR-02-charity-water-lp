@@ -1,3 +1,34 @@
+/* Flex layout for Hero Section */
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.hero-text {
+
+
+/* Hero Section headline and subline color */
+.hero-text h1,
+.hero-text h1,
+.hero-text p {
+  color: #FFC907;
+  flex: 1;
+  text-align: left;
+  padding-left: 80px;
+  margin-top: -80px;
+}
+
+.hero-img {
+  flex-shrink: 0;
+}
+/* Header Section Styles */
+.site-header {
+  background-color: #1A1A1A; /* dark background */
+  padding: 16px 0;
+  text-align: center;
+}
 /* charity: water Brand Colors & Fonts
 
 Primary Colors:
@@ -26,7 +57,7 @@ Fonts:
 /* Set up the main font and background color for the whole page */
 body {
   background-color: #f4f8fb; /* Soft light blue for a fresh look */
-  font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
+  font-family: 'Proxima Nova', Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #222;
@@ -45,19 +76,22 @@ section {
 .hero {
   position: relative; /* Needed for overlay */
   /* Set a background image that covers the whole section */
-  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80');
-  background-size: cover;      /* Make the image cover the whole area */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat;
-  color: #fff;                 /* White text for contrast */
+  background: #003366;
+  color: #FFC907;                 /* Yellow text for contrast on dark blue */
   text-align: center;          /* Center the text */
-  padding: 60px 20px;          /* Add space above and below */
+  padding: 60px 20px 40px 20px; /* Adjust padding for new layout */
+  min-height: 40vh;            /* Slightly less height since image is smaller */
+/* Hero Section Image Styles */
+.hero-img {
+  display: block;
+  margin: 0 auto 24px auto;
+  max-width: 640px;
+  max-height: 420px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(46, 157, 247, 0.10);
+}
   border-radius: 0 0 16px 16px; /* Only round bottom corners */
-
-  /* Add a dark overlay for better text readability */
-  /* This uses a simple linear-gradient overlay */
-  background-blend-mode: darken;
-  background-color: rgba(46, 157, 247, 0.45); /* Blue overlay */
 }
 
 /* Make the headline bold and modern */
