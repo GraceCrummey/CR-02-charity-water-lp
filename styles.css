@@ -21,6 +21,11 @@
 
 .hero-img {
   flex-shrink: 0;
+  max-width: 220px;
+  max-height: 140px;
+  width: 100%;
+  height: auto;
+  margin-right: 0;
 }
 /* Header Section Styles */
 .site-header {
