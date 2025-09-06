@@ -1,3 +1,24 @@
+/* Header Navigation Styles */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-nav {
+  display: flex;
+  gap: 24px;
+  margin-right: 32px;
+}
+.nav-link {
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #2E9DF7;
+}
 /* Flex layout for Hero Section */
 .hero-flex {
   display: flex;
@@ -137,17 +158,11 @@ section {
   height: auto;
   margin-right: 0;
 }
-  width: 100%;
-  max-width: 320px;
-  border-radius: 10px;
-  margin-bottom: 16px;
-  box-shadow: 0 2px 8px rgba(46, 157, 247, 0.10);
-}
 
 /* Donate Button Styles */
 .donate-button {
   display: inline-block;
-  background-color: #4FCB53; /* Green */
+  background-color: #FFC907; /* Yellow */
   color: #fff;
   padding: 14px 32px;
   text-decoration: none;
