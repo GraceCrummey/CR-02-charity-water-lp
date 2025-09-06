@@ -100,7 +100,7 @@ section {
   margin-bottom: 0;
   position: relative; /* Needed for overlay */
   /* Set a background image that covers the whole section */
-  background: #003366;
+  background: #77A8BB;
   color: #FFC907;                 /* Yellow text for contrast on dark blue */
   text-align: center;          /* Center the text */
   padding: 60px 20px 40px 20px; /* Adjust padding for new layout */
