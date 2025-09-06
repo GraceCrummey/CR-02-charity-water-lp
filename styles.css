@@ -100,7 +100,7 @@ section {
   margin-bottom: 0;
   position: relative; /* Needed for overlay */
   /* Set a background image that covers the whole section */
-  background: #77A8BB;
+  background: #003366;
   color: #FFC907;                 /* Yellow text for contrast on dark blue */
   text-align: center;          /* Center the text */
   padding: 60px 20px 40px 20px; /* Adjust padding for new layout */
@@ -127,7 +127,7 @@ section {
 /* Hero Section Styles - Cleaned and Enlarged */
 .hero {
   position: relative;
-  background: #003366;
+  background: #77A8BB;
   color: #FFC907;
   text-align: center;
   padding: 80px 20px 60px 20px;
