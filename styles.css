@@ -1,3 +1,7 @@
+.cta-highlight {
+  font-size: 1.3em;
+  font-weight: bold;
+}
 /* Header Navigation Styles */
 .site-header {
   display: flex;
@@ -237,6 +241,14 @@ section {
 }
 /* Call-to-Action Section Styles - Cleaned */
 .call-to-action {
+.call-to-action p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.call-to-action p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
   background-color: #003366; /* Dark Blue */
   color: #FFC907; /* Yellow text for contrast */
   text-align: center;
