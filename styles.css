@@ -30,7 +30,7 @@
 /* Hero Section headline and subline color */
 .hero-text h1,
 .hero-text p {
-  color: #FFC907;
+  color: #003366;
   flex: 1;
   text-align: left;
   padding-left: 80px;
@@ -95,18 +95,6 @@ section {
   padding: 24px 16px;
 }
 
-/* Hero Section Styles */
-.hero {
-  margin-bottom: 0;
-  position: relative; /* Needed for overlay */
-  /* Set a background image that covers the whole section */
-  background: #003366;
-  color: #FFC907;                 /* Yellow text for contrast on dark blue */
-  text-align: center;          /* Center the text */
-  padding: 60px 20px 40px 20px; /* Adjust padding for new layout */
-  min-height: 40vh;            /* Slightly less height since image is smaller */
-  border-radius: 0 0 16px 16px; /* Only round bottom corners */
-}
 
 /* Make the headline bold and modern */
 .hero h1 {
@@ -124,14 +112,15 @@ section {
   text-shadow: 0 1px 4px rgba(0,0,0,0.12);
 }
 
-/* Hero Section Styles - Cleaned and Enlarged */
+/* Hero Section Styles - Single Source of Truth */
 .hero {
+  margin-bottom: 0;
   position: relative;
-  background: #77A8BB;
+  background: #FFC907;
   color: #FFC907;
   text-align: center;
   padding: 80px 20px 60px 20px;
-  min-height: 60vh; /* Make hero section fill more than half the viewport height */
+  min-height: 60vh;
   border-radius: 0 0 16px 16px;
 }
 
