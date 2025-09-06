@@ -152,8 +152,8 @@ section {
 /* Hero Image Styles - Cleaned and Enlarged */
 .hero-img {
   flex-shrink: 0;
-  max-width: 520px;
-  max-height: 380px;
+  max-width: 640px;
+  max-height: 480px;
   width: 100%;
   height: auto;
   margin-right: 0;
